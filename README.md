@@ -1,10 +1,10 @@
 # 📸 AuraGram_AI-Powered-Social-Media
 
-**Target:** Build an app that we can share images with intelligent AI features, improve user experience through automation and personalization[cite: 1, 2].
+**Target:** Build an app that we can share images with intelligent AI features, improve user experience through automation and personalization.
 
 ## 📖 Introduction
 
-- **AuraGram** is not a common social media. [cite_start]The project focuses on deeply integrating **AI** to solve user problems such as lack of ideas when writing captions, intelligent image searching based on semantic instead of keywords, and image personalization[cite: 15].
+- **AuraGram** is not a common social media. The project focuses on deeply integrating **AI** to solve user problems such as lack of ideas when writing captions, intelligent image searching based on semantic instead of keywords, and image personalization.
 
 - The project is designed with Clean Architecture and clear separation between processing stages facilitates easy expansion and maintenance.
 
@@ -13,23 +13,23 @@
 ## 🚀 Features
 
 ### 1. Social Media Foundation
-* [cite_start]**Authentication:** Signup and Login (JWT / Firebase Auth)[cite: 6].
-* [cite_start]**Feed System:** Browse through a list of posts with images and captions, with support for Like/Comment interactions[cite: 7].
-* [cite_start]**Upload:** Upload images from devices(AWS S3)[cite: 8].
-* [cite_start]**Profile:** The profile page displays the user's image grid layout[cite: 9].
+* **Authentication:** Signup and Login (JWT / Firebase Auth).
+* **Feed System:** Browse through a list of posts with images and captions, with support for Like/Comment interactions.
+* **Upload:** Upload images from devices(AWS S3).
+* **Profile:** The profile page displays the user's image grid layout.
 
 ### 2. AI Core
-* [cite_start]**Content AI:** Automatically generate engaging captions and suggest relevant hashtags based on the image content (Gemini API) [cite: 12].
-* [cite_start]**Image AI (AI Stylist):** Integrates beauty filters or style transfers images into paintings/anime using Stable Diffusion[cite: 13].
+* **Content AI:** Automatically generate engaging captions and suggest relevant hashtags based on the image content (Gemini API).
+* **Image AI (AI Stylist):** Integrates beauty filters or style transfers images into paintings/anime using Stable Diffusion.
 
 ### 3. Smart Search & Explore
-* [cite_start]**Object Detection:** Automatically detects objects in images when uploaded and tags them (e.g., #dog, #sunset, #food)[cite: 16].
-* **Semantic Search:** Searches based on natural semantics. [cite_start]Example: Typing "beach" will show images of beaches even if the caption doesn't contain that word[cite: 17].
+* **Object Detection:** Automatically detects objects in images when uploaded and tags them (e.g., #dog, #sunset, #food).
+* **Semantic Search:** Searches based on natural semantics. Example: Typing "beach" will show images of beaches even if the caption doesn't contain that word.
 
 ### 4. UI/UX
-* [cite_start]**Infinite Scroll:** Infinite scrolling for an optimized feed browsing experience[cite: 19].
-* [cite_start]**Real-time Notifications:** Receive instant notifications when someone Likes or Comments (Uses Socket.io)[cite: 20].
-* [cite_start]**AI Chatbot:** Virtual assistant that helps suggest replies to messages or create images quickly[cite: 21].
+* **Infinite Scroll:** Infinite scrolling for an optimized feed browsing experience.
+* **Real-time Notifications:** Receive instant notifications when someone Likes or Comments (Uses Socket.io).
+* **AI Chatbot:** Virtual assistant that helps suggest replies to messages or create images quickly.
 
 ---
 
@@ -37,12 +37,12 @@
 
 | Element | Technology |
 | :--- | :--- |
-| **Frontend** | [cite_start]React Native (Mobile) hoặc React.js (Web) [cite: 23] |
-| **Backend** | [cite_start]Python (FastAPI) [cite: 24] |
-| **Database** | [cite_start]PostgreSQL hoặc MongoDB (Lưu trữ Metadata & Vector) [cite: 24] |
-| **AI Models** | [cite_start]Google Gemini API, TensorFlow.js [cite: 24] |
-| **Storage** | [cite_start]AWS S3 [cite: 8] |
-| **Real-time** | [cite_start]Socket.io [cite: 20] |
+| **Frontend** | React Native (Mobile) hoặc React.js (Web) |
+| **Backend** | Python (FastAPI) |
+| **Database** | PostgreSQL hoặc MongoDB (Lưu trữ Metadata & Vector) |
+| **AI Models** | Google Gemini API, TensorFlow.js |
+| **Storage** | AWS S3 |
+| **Real-time** | Socket.io |
 
 ---
 
