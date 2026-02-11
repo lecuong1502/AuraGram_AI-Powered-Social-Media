@@ -13,7 +13,7 @@
 ## 🚀 Features
 
 ### 1. Social Media Foundation
-* **Authentication:** Signup and Login (JWT / Firebase Auth).
+* **Authentication:** Signup and Login (JWT).
 * **Feed System:** Browse through a list of posts with images and captions, with support for Like/Comment interactions.
 * **Upload:** Upload images from devices(AWS S3).
 * **Profile:** The profile page displays the user's image grid layout.
@@ -46,7 +46,7 @@
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 AURAGRAM_PROJECT
