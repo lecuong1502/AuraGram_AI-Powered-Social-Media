@@ -1,9 +1,6 @@
 # 📸 AuraGram_AI-Powered-Social-Media
 
-> [cite_start]**Target:** Build an app that we can share images with intelligent AI features, improve user experience through automation and personalization[cite: 1, 2].
-
-![Project Status](https://img.shields.io/badge/Status-In%20Development-yellow)
-![AI Powered](https://img.shields.io/badge/AI-Powered-blueviolet)
+**Target:** Build an app that we can share images with intelligent AI features, improve user experience through automation and personalization[cite: 1, 2].
 
 ## 📖 Introduction
 
